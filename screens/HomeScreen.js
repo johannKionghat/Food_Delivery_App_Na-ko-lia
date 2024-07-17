@@ -9,7 +9,7 @@ import { featured } from '../constants';
 export default function HomeScreen() {
   return (
     <SafeAreaView className="bg-white  pb-20" >
-      <StatusBar barStyle={"light-content"} backgroundColor={"white"}/>
+      <StatusBar barStyle={"dark-content"}/>
       {/* search bar */}
       <Searchbar/>
       {/* main */}

@@ -4,10 +4,14 @@ import { AntDesign } from '@expo/vector-icons'
 import { Feather } from 'react-native-feather'
 import * as Icon from 'react-native-feather'
 import { themeColors } from '../theme'
+import { useNavigation } from '@react-navigation/native'
 
 export default function RestaurantCard({item}) {
+    const navigation = useNavigation();
   return (
-    <TouchableWithoutFeedback>
+    <TouchableWithoutFeedback
+        onPress={()=>navigation.navigate('Restaurant', {...item})}
+    >
         <View style={{
             shadowColor: themeColors.bgColor(0.7),
             shadowRadius:7
@@ -17,7 +21,7 @@ export default function RestaurantCard({item}) {
             <View className="px-3 pb-4 space-y-2">
                 <Text className="text-lg font-bold pt-2">{item.name}</Text>
                 <View className="flex-row items-center space-x-1">
-                    <AntDesign name="star" className="h-4 w-4" color={"orange"}/>
+                    <AntDesign name="star" className="h-4 w-4" color={themeColors.bgColor(1)}/>
                     <Text className="text-xs">
                         <Text className="text-green-700">{item.stars}</Text>
                         <Text className="text-gray-700">
