@@ -3,7 +3,7 @@ import React from 'react'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import { Feather } from 'react-native-feather';
 import { themeColors } from '../theme';
-import * as Icon from 'react-native-feather'
+import * as Icon from'react-native-feather'
 import { AntDesign } from '@expo/vector-icons';
 import DishRow from '../components/DishRow';
 import CartIcon from '../components/CartIcon';
