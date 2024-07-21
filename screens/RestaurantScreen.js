@@ -1,5 +1,5 @@
 import { View, Text, ScrollView, Image, TouchableOpacity, StatusBar } from 'react-native'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import { Feather } from 'react-native-feather';
 import { themeColors } from '../theme';
@@ -7,6 +7,8 @@ import * as Icon from'react-native-feather'
 import { AntDesign } from '@expo/vector-icons';
 import DishRow from '../components/DishRow';
 import CartIcon from '../components/CartIcon';
+import { useDispatch } from 'react-redux';
+import { setRestaurant } from '../slices/restaurantSlice';
 
 
 export default function RestaurantScreen() {
@@ -17,6 +19,12 @@ export default function RestaurantScreen() {
   const handleBack =()=>{
     navigation.goBack();
   };
+  const dispatch = useDispatch();
+  useEffect(()=>{
+    if(item && item.id){
+      dispatch(setRestaurant({...item}))
+    }
+  },[])
   return (
     <View>
       <CartIcon/>
