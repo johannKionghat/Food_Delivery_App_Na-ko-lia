@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# Bienvenue dans votre application Expo Na-ko-lia 🍽️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ce projet est une application de livraison de repas appelée **Na-ko-lia**, créée avec [Expo](https://expo.dev) et initialisée avec [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## Pour commencer
 
-1. Install dependencies
+1. Installez les dépendances 📦
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Démarrez l'application ▶️
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+Dans la sortie, vous trouverez des options pour ouvrir l'application dans un:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Build de développement](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Émulateur Android](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [Simulateur iOS](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), un bac à sable limité pour essayer le développement d'applications avec Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Vous pouvez commencer à développer en modifiant les fichiers dans le répertoire **app**. Ce projet utilise le [routage basé sur les fichiers](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Obtenez un projet vierge 🆕
 
-When you're ready, run:
+Lorsque vous êtes prêt, exécutez:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Cette commande déplacera le code de démarrage dans le répertoire **app-example** et créera un répertoire **app** vierge où vous pourrez commencer à développer.
 
-## Learn more
+## Bibliothèques utilisées 📚
 
-To learn more about developing your project with Expo, look at the following resources:
+- [React Navigation](https://reactnavigation.org/): Pour la navigation dans l'application 🚀
+- [Expo](https://expo.dev): Plateforme pour des applications universelles 📱
+- [Redux](https://redux.js.org/): Gestion de l'état de l'application 🌐
+- [Redux Toolkit](https://redux-toolkit.js.org/): Ensemble d'outils pour simplifier l'utilisation de Redux 🛠️
+- [Sanity Studio](https://www.sanity.io/studio): Backend pour la gestion de contenu 📊
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## En savoir plus 📖
 
-## Join the community
+Pour en savoir plus sur le développement de votre projet avec Expo, consultez les ressources suivantes :
 
-Join our community of developers creating universal apps.
+- [Documentation Expo](https://docs.expo.dev/): Apprenez les fondamentaux, ou approfondissez avec nos [guides](https://docs.expo.dev/guides).
+- [Tutoriel Expo](https://docs.expo.dev/tutorial/introduction/): Suivez un tutoriel étape par étape où vous créerez un projet fonctionnant sur Android, iOS et le web.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Rejoignez la communauté 🌍
+
+Rejoignez notre communauté de développeurs créant des applications universelles.
+
+- [Expo sur GitHub](https://github.com/expo/expo): Consultez notre plateforme open-source et contribuez.
+- [Communauté Discord](https://chat.expo.dev): Discutez avec les utilisateurs d'Expo et posez des questions.
+
+Bonne programmation ! 🚀
